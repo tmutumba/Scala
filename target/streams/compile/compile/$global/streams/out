@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/tonnyhuey/IdeaProjects/server1.0/src/main/scala/EchoServer.scala:33:5: '=' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m    }[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
