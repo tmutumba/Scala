@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2dab049d-f6e2-4511-981d-6eea5fa69deb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404 file.html" beforeDir="false" afterPath="$PROJECT_DIR$/404 file.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/EchoServer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/EchoServer.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/scala/EchoServerTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/EchoServerTest.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/.history" beforeDir="false" afterPath="$PROJECT_DIR$/target/.history" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/classes/EchoServer$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/classes/EchoServer$.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.12/test-classes/EchoServerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.12/test-classes/EchoServerTest.class" afterDir="false" />
     </list>
@@ -55,7 +53,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="222" />
-          <entry key="Scala" value="4176" />
+          <entry key="Scala" value="4231" />
           <entry key="sbt" value="27" />
           <entry key="sbtShell" value="30" />
         </counts>
@@ -64,20 +62,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/EchoServerTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
+            <state relative-caret-position="-42">
+              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/EchoServer.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+            <state relative-caret-position="-318">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#14#31#0" expanded="true" />
               </folding>
@@ -125,16 +123,16 @@
         <option value="$PROJECT_DIR$/src/main/scala/Main.scala" />
         <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/test/scala/EchoServerTest.scala" />
         <option value="$PROJECT_DIR$/404 file.html" />
         <option value="$PROJECT_DIR$/src/main/scala/EchoServer.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/EchoServerTest.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="627" />
-    <option name="y" value="23" />
-    <option name="width" value="782" />
+    <option name="x" value="495" />
+    <option name="y" value="31" />
+    <option name="width" value="899" />
     <option name="height" value="837" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -226,7 +224,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555335821669" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555372314916" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -244,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EchoServer">
+  <component name="RunManager" selected="ScalaTest.EchoServerTest.get Resource Name should Return Http response">
     <configuration name="EchoServer" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="EchoServer" />
       <module name="server1.0" />
@@ -342,39 +340,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.08 at 14h 48m 18s.xml">
+    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.15 at 15h 05m 45s.xml">
       <configuration name="EchoServerTest.get Resource Name should Return Http response" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.08 at 14h 49m 23s.xml">
+    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.15 at 15h 06m 41s.xml">
       <configuration name="EchoServerTest.get Resource Name should Return Http response" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.08 at 14h 56m 58s.xml">
+    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.15 at 15h 06m 56s.xml">
       <configuration name="EchoServerTest.get Resource Name should Return Http response" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.08 at 14h 57m 49s.xml">
+    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.15 at 15h 17m 54s.xml">
       <configuration name="EchoServerTest.get Resource Name should Return Http response" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.08 at 15h 08m 39s.xml">
+    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.15 at 15h 21m 22s.xml">
       <configuration name="EchoServerTest.get Resource Name should Return Http response" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.08 at 15h 56m 53s.xml">
+    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.15 at 15h 21m 49s.xml">
       <configuration name="EchoServerTest.get Resource Name should Return Http response" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.08 at 16h 38m 58s.xml">
+    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.15 at 15h 22m 36s.xml">
       <configuration name="EchoServerTest.get Resource Name should Return Http response" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.08 at 16h 45m 15s.xml">
+    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.15 at 15h 23m 15s.xml">
       <configuration name="EchoServerTest.get Resource Name should Return Http response" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.08 at 16h 48m 05s.xml">
+    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.15 at 15h 26m 34s.xml">
       <configuration name="EchoServerTest.get Resource Name should Return Http response" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.08 at 16h 48m 51s.xml">
+    <history-entry file="EchoServerTest_get_Resource_Name_should_Return_Http_response - 2019.04.15 at 15h 27m 04s.xml">
       <configuration name="EchoServerTest.get Resource Name should Return Http response" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="627" y="23" width="782" height="837" extended-state="0" />
+    <frame x="495" y="31" width="899" height="837" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49694502" weight="0.21274602" />
       <window_info id="Structure" order="1" sideWeight="0.503055" side_tool="true" weight="0.47038725" />
@@ -477,13 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/EchoServerTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -500,11 +491,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/EchoServer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+        <state relative-caret-position="-318">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#14#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/EchoServerTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
