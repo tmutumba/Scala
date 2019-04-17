@@ -55,7 +55,7 @@ object EchoServer {
           out.write("Connection; close \r\n")
           out.write("\r\n\n")
 
-          out.write("FAIL")
+          out.write("<center>FAIL</center>")
           //out.write("<HTML><BODY><TITLE> File Not Found</H1></BODY></HTML> \")")
           //out.write("<HTML><BODY><H1><CENTER> Error 404: File Not Found</CENTER></H1></BODY></HTML>")
           }

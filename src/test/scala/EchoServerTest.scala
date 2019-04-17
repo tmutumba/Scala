@@ -7,11 +7,11 @@ import org.scalatest.mockito.MockitoSugar
 
 class EchoServerTest extends FlatSpec with Matchers with MockitoSugar {
 
-  "get Resource Name" should "Return Http response" in {
+  "get Resource Name" should "Return HTTP response" in {
     var in = mock[BufferedReader]
     var out = mock[BufferedWriter]
 
-    when(in.readLine()).thenReturn("GET resourceName HTTP/1.1")
+    when(in.readLine()).thenReturn("GET / HTTP/1.1")
     EchoServer.getResourceName(in, out)
     verify(out).write("HTTP/1.1 200 OK \r\n")
     verify(out).write("Content-Type: text/html \r\n")
@@ -25,7 +25,7 @@ class EchoServerTest extends FlatSpec with Matchers with MockitoSugar {
 
     in = mock[BufferedReader]
     out = mock[BufferedWriter]
-    when(in.readLine()).thenReturn("GET resourceName HTTP/1.1")
+    when(in.readLine()).thenReturn("GET / HTTP/1.1")
     EchoServer.getResourceName(in, out)
     verify(out).write("HTTP/1.1 404 Not Found \r\n")
     verify(out).write("Content-Type: text/html \r\n")
