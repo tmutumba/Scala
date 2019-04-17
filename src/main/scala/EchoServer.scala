@@ -2,7 +2,8 @@
 
 import java.net._
 import java.io._
-import scala.io._
+import java.util.concurrent.Future
+import scala.concurrent.{Future, Await}
 
 object EchoServer {
   def main(args: Array[String]) {
@@ -14,7 +15,6 @@ object EchoServer {
 
       getResourceName(in, out)
 
-      out.flush()
       s.close()
     }
   }
@@ -25,6 +25,7 @@ object EchoServer {
     val splitString = firstLine.split(" ")
     val requestVerb = splitString(0)
     val resourceName = splitString(1)
+    //val f: Future[]
 
     if (requestVerb.equals("GET")){
       var link = resourceName
@@ -32,7 +33,6 @@ object EchoServer {
         link = "/Users/tonnyhuey/IdeaProjects/server1.0/test.html"
         //System.out.println(link)
       }
-
       try {
         val reader = new BufferedReader(new FileReader (link.substring(1)))
         //response header
@@ -44,7 +44,7 @@ object EchoServer {
           //out.write("SUCCESS")
 
           for (line <- reader.lines().toArray()) {
-            out.write(line + "\r\n")
+            out.write(line + "\r\n\n")
           }
         reader.close()
         }
@@ -60,5 +60,8 @@ object EchoServer {
           //out.write("<HTML><BODY><H1><CENTER> Error 404: File Not Found</CENTER></H1></BODY></HTML>")
           }
       }
-    }
+    out.flush()
+    in.close()
+    out.close()
+  }
 }
